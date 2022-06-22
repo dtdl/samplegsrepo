@@ -5,42 +5,42 @@
 		<id>manual-upload-success</id>
 		<subject>ICCREA::PROD::Notice for Bulk Price File Upload Success</subject>
 		<from>no-reply@gsondemand.it</from>
-		<recipients>ODAlerts@thegoldensource.com;servicing.middleoffice@iccrea.bcc.it</recipients>
+		<recipients>dtao@thegoldensource.com</recipients>
 		<body>The file $fileName$ uploaded by $userId$ is processed successfully and new publishing files have been sent. Please check "Manu >> Exception Management >> Load Error Report" for the details. </body>
 	</email>
 	<email>
 		<id>manual-upload-failed</id>
 		<subject>ICCREA::PROD::Notice for Bulk Price File Upload Failed</subject>
 		<from>no-reply@gsondemand.it</from>
-		<recipients>ODAlerts@thegoldensource.com;servicing.middleoffice@iccrea.bcc.it</recipients>
+		<recipients>dtao@thegoldensource.com</recipients>
 		<body>The file $fileName$ uploaded by $userId$ is processed. But no prices be loaded successfully. Please check "Manu >> Exception Management >> Load Error Report" for error details. </body>
 	</email>
 	<email>
 		<id>manual-upload-blank</id>
 		<subject>ICCREA::PROD::Notice for Bulk Price File Upload Failed</subject>
 		<from>no-reply@gsondemand.it</from>
-		<recipients>ODAlerts@thegoldensource.com;servicing.middleoffice@iccrea.bcc.it</recipients>
+		<recipients>dtao@thegoldensource.com</recipients>
 		<body>No file selected. The upload triggered by $userId$ is skipped.</body>
 	</email>
 	<email>
 		<id>manual-upload-conflict</id>
 		<subject>ICCREA::PROD::Notice for Bulk Price File Upload Failed</subject>
 		<from>no-reply@gsondemand.it</from>
-		<recipients>ODAlerts@thegoldensource.com;servicing.middleoffice@iccrea.bcc.it</recipients>
+		<recipients>dtao@thegoldensource.com</recipients>
 		<body>There are other running validation/publishing. The file $fileName$ uploaded by $userId$ is skipped.</body>
 	</email>
 	<email>
 		<id>manual-publish-success</id>
 		<subject>ICCREA::PROD::Notice for Manual Publishing Success</subject>
 		<from>no-reply@gsondemand.it</from>
-		<recipients>ODAlerts@thegoldensource.com;servicing.middleoffice@iccrea.bcc.it</recipients>
+		<recipients>dtao@thegoldensource.com</recipients>
 		<body>Manual publishing triggered by $userId$ is successfully done, new publishing files have been sent.</body>
 	</email>
 	<email>
 		<id>manual-publish-conflict</id>
 		<subject>ICCREA::PROD::Notice for Manual Publishing Failed</subject>
 		<from>no-reply@gsondemand.it</from>
-		<recipients>ODAlerts@thegoldensource.com;servicing.middleoffice@iccrea.bcc.it</recipients>
+		<recipients>dtao@thegoldensource.com</recipients>
 		<body>There are other running validation/publishing. The manual publishing triggered by $userId$ is skipped.</body>
 	</email>
 </notifications>
