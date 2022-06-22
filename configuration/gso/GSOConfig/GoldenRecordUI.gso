@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?><entities cleanUnusedFields="false" nameSpace="ICCREA">
+<entiyTypes>
+<entiyType desc="GoldenRecordUI" id="ICR210000000001" mainTable="FT_T_IGR2" name="GoldenRecordUI" nameSpace="ICCREA"/>
+</entiyTypes>
+<beFields>
+<beField class="BEDEC   " displayCaption="ASF - Mark-to-Model" entityTypeId="ICR210000000001" id="007nAlBWgk2KG00t" mandatory="0" multiplicity="SINGLE_OR_NULL" name="IGR2ASFMTMICCREA" nameSpace="ICCREA"/>
+<beField class="BEDEC   " displayCaption="Bloomberg - PX_BID" entityTypeId="ICR210000000001" id="007nAlBWgk2KG00v" mandatory="0" multiplicity="SINGLE_OR_NULL" name="IGR2BBBIDICCREA" nameSpace="ICCREA"/>
+<beField class="BEDEC   " displayCaption="Bloomberg - NAV" entityTypeId="ICR210000000001" id="007nAlBWgk2KG00x" mandatory="0" multiplicity="SINGLE_OR_NULL" name="IGR2BBNAVICCREA" nameSpace="ICCREA"/>
+<beField class="BEDEC   " displayCaption="Collat Price" entityTypeId="ICR210000000001" id="007nAlBWgk2KG00z" mandatory="0" multiplicity="SINGLE_OR_NULL" name="IGR2BCECOLLATICCREA" nameSpace="ICCREA"/>
+<beField class="BEDEC   " displayCaption="Borsa Italiana - Mark-to-Model" entityTypeId="ICR210000000001" id="007nAlBWgk2KG00+" mandatory="0" multiplicity="SINGLE_OR_NULL" name="IGR2BORSAICCREA" nameSpace="ICCREA"/>
+<beField class="BEDEC   " displayCaption="Brokers - Price" entityTypeId="ICR210000000001" id="007nAlBWgk2KG011" mandatory="0" multiplicity="SINGLE_OR_NULL" name="IGR2BROKERICCREA" nameSpace="ICCREA"/>
+<beField class="BETEXT  " displayCaption="Cad Code" entityTypeId="ICR210000000001" id="007nAlBWgk2KG014" mandatory="0" multiplicity="SINGLE_OR_NULL" name="IGR2CADCODEICCREA" nameSpace="ICCREA"/>
+<beField class="BETEXT  " customDesc="" desc="" displayCaption="Cad Code Main" entityTypeId="ICR210000000001" id="007nAlBWgk2KG018" mandatory="0" multiplicity="SINGLE_OR_NULL" name="IGR2CADCODEMAINICCREA" nameSpace="ICCREA"/>
+<beField class="BETEXT  " displayCaption="Cad Code Market" entityTypeId="ICR210000000001" id="007nAlBWgk2KG016" mandatory="0" multiplicity="SINGLE_OR_NULL" name="IGR2CADCODEMARKETICCREA" nameSpace="ICCREA"/>
+<beField class="BEDEC   " displayCaption="Bloomberg - CBBT" entityTypeId="ICR210000000001" id="007nAlBWgk2KG01B" mandatory="0" multiplicity="SINGLE_OR_NULL" name="IGR2CBBTICCREA" nameSpace="ICCREA"/>
+<beField class="BETEXT  " displayCaption="Country Code" entityTypeId="ICR210000000001" id="007nAlBWgk2KG01D" mandatory="0" multiplicity="SINGLE_OR_NULL" name="IGR2COUNTRYCODE" nameSpace="ICCREA"/>
+<beField class="BETEXT  " displayCaption="Data Source Id" entityTypeId="ICR210000000001" id="007nAlBWgk2KG01F" mandatory="0" multiplicity="SINGLE_OR_NULL" name="IGR2DATASRCIDICCREA" nameSpace="ICCREA"/>
+<beField class="BEDEC   " displayCaption="DomesticMOT - Reference price" entityTypeId="ICR210000000001" id="007nAlBWgk2KG01H" mandatory="0" multiplicity="SINGLE_OR_NULL" name="IGR2DOMESTICMOTICCREA" nameSpace="ICCREA"/>
+<beField class="BETEXT  " displayCaption="CAD Entity code of the Instrument" entityTypeId="ICR210000000001" id="007nAlBWgk2KG01J" mandatory="0" multiplicity="SINGLE_OR_NULL" name="IGR2ENTITYICCREA" nameSpace="ICCREA"/>
+<beField class="BEDEC   " displayCaption="EUREX - Settlement price" entityTypeId="ICR210000000001" id="007nAlBWgk2KG01L" mandatory="0" multiplicity="SINGLE_OR_NULL" name="IGR2EUREXICCREA" nameSpace="ICCREA"/>
+<beField class="BEDEC   " displayCaption="EuroMOT - Reference price" entityTypeId="ICR210000000001" id="007nAlBWgk2KG01N" mandatory="0" multiplicity="SINGLE_OR_NULL" name="IGR2EUROMOTICCREA" nameSpace="ICCREA"/>
+<beField class="BEDEC   " displayCaption="EuroTLX - Reference price" entityTypeId="ICR210000000001" id="007nAlBWgk2KG01P" mandatory="0" multiplicity="SINGLE_OR_NULL" name="IGR2EUROTLXICCREA" nameSpace="ICCREA"/>
+<beField class="BEDEC   " displayCaption="ExtraMOT - Reference price" entityTypeId="ICR210000000001" id="007nAlBWgk2KG01R" mandatory="0" multiplicity="SINGLE_OR_NULL" name="IGR2EXTRAMOTICCREA" nameSpace="ICCREA"/>
+<beField class="BEDEC   " displayCaption="Finastra - Mark-to-Model" entityTypeId="ICR210000000001" id="007nAlBWgk2KG01T" mandatory="0" multiplicity="SINGLE_OR_NULL" name="IGR2FINASTRAICCREA" nameSpace="ICCREA"/>
+<beField class="BEDEC   " customDesc="" desc="" displayCaption="Fund manager - NAV" entityTypeId="ICR210000000001" id="007nAlBWgk2KG01V" mandatory="0" multiplicity="SINGLE_OR_NULL" name="IGR2FUNDMGRNAVICCREA" nameSpace="ICCREA"/>
+<beField class="BEDEC   " displayCaption="FVH Level" entityTypeId="ICR210000000001" id="007nAlBWgk2KG01X" mandatory="0" multiplicity="SINGLE_OR_NULL" name="IGR2FVLLEVELICCREA" nameSpace="ICCREA"/>
+<beField class="BETEXT  " displayCaption="GoldenRecord OID" entityTypeId="ICR210000000001" id="007nAlBWgk2KG01Z" mandatory="0" multiplicity="SINGLE_OR_NULL" name="IGR2GKEYOIDICCREA" nameSpace="ICCREA"/>
+<beField class="BEDEC   " displayCaption="GoldenPrice" entityTypeId="ICR210000000001" id="007nAlBWgk2KG01b" mandatory="0" multiplicity="SINGLE_OR_NULL" name="IGR2GOLDENPRICEICCREA" nameSpace="ICCREA"/>
+<beField class="BEDEC   " displayCaption="GPCS Golden Price" entityTypeId="ICR210000000001" id="007nAlBWgk2KG02c" mandatory="0" multiplicity="SINGLE_OR_NULL" name="IGR2GPCSGOLDENPRCICCREA" nameSpace="ICCREA"/>
+<beField class="BETEXT  " displayCaption="Group Description" entityTypeId="ICR210000000001" id="007nAlBWgk2KG01i" mandatory="0" multiplicity="SINGLE_OR_NULL" name="IGR2GRPDESCICCREA" nameSpace="ICCREA"/>
+<beField class="BETEXT  " displayCaption="CAD Group code of the Instrument" entityTypeId="ICR210000000001" id="007nAlBWgk2KG01g" mandatory="0" multiplicity="SINGLE_OR_NULL" name="IGR2GRPICCREA" nameSpace="ICCREA"/>
+<beField class="BEDEC   " displayCaption="Haircut BCE" entityTypeId="ICR210000000001" id="007nAlBWgk2KG01k" mandatory="0" multiplicity="SINGLE_OR_NULL" name="IGR2HAIRCUTICCREA" nameSpace="ICCREA"/>
+<beField class="BEDEC   " displayCaption="Hi-MTF - ASK price" entityTypeId="ICR210000000001" id="007nAlBWgk2KG01m" mandatory="0" multiplicity="SINGLE_OR_NULL" name="IGR2HIMTFASKEDICCREA" nameSpace="ICCREA"/>
+<beField class="BEDEC   " displayCaption="Hi-MTF - BID price" entityTypeId="ICR210000000001" id="007nAlBWgk2KG01o" mandatory="0" multiplicity="SINGLE_OR_NULL" name="IGR2HIMTFBIDICCREA" nameSpace="ICCREA"/>
+<beField class="BEDEC   " displayCaption="IDEM – Closed price" entityTypeId="ICR210000000001" id="007nAlBWgk2KG01q" mandatory="0" multiplicity="SINGLE_OR_NULL" name="IGR2IDEMICCREA" nameSpace="ICCREA"/>
+<beField class="BETEXT  " displayCaption="Instrument ID" entityTypeId="ICR210000000001" id="007nAlBWgk2KG01s" mandatory="0" multiplicity="SINGLE_OR_NULL" name="IGR2INSTRIDICCREA" nameSpace="ICCREA"/>
+<beField class="BETEXT  " displayCaption="Instrument OID" entityTypeId="ICR210000000001" id="007nAlBWgk2KG01u" mandatory="0" multiplicity="SINGLE_OR_NULL" name="IGR2ISIDOIDICCREA" nameSpace="ICCREA"/>
+<beField class="BETEXT  " displayCaption="ISIN code" entityTypeId="ICR210000000001" id="007nAlBWgk2KG01y" mandatory="0" multiplicity="SINGLE_OR_NULL" name="IGR2ISINICCREA" nameSpace="ICCREA"/>
+<beField class="BETEXT  " displayCaption="Issue Type" entityTypeId="ICR210000000001" id="007nAlBWgk2KG01-" mandatory="0" multiplicity="SINGLE_OR_NULL" name="IGR2ISSTYPICCREA" nameSpace="ICCREA"/>
+<beField class="BETEXT  " displayCaption="Market OID" entityTypeId="ICR210000000001" id="007nAlBWgk2KG020" mandatory="0" multiplicity="SINGLE_OR_NULL" name="IGR2MKTOIDICCREA" nameSpace="ICCREA"/>
+<beField class="BEDEC   " displayCaption="Morningstar - PreTaxBid" entityTypeId="ICR210000000001" id="007nAlBWgk2KG022" mandatory="0" multiplicity="SINGLE_OR_NULL" name="IGR2MORNINGPRETAXBIDICCREA" nameSpace="ICCREA"/>
+<beField class="BEDEC   " displayCaption="Morningstar - PreTaxNAV" entityTypeId="ICR210000000001" id="007nAlBWgk2KG024" mandatory="0" multiplicity="SINGLE_OR_NULL" name="IGR2MORNINGPRETAXNAVICCREA" nameSpace="ICCREA"/>
+<beField class="BEDEC   " displayCaption="MTA - Reference price" entityTypeId="ICR210000000001" id="007nAlBWgk2KG026" mandatory="0" multiplicity="SINGLE_OR_NULL" name="IGR2MTAICCREA" nameSpace="ICCREA"/>
+<beField class="BETEXT  " displayCaption="Piazza Code" entityTypeId="ICR210000000001" id="007nAlBWgk2KG028" mandatory="0" multiplicity="SINGLE_OR_NULL" name="IGR2PIAZZACODEICCREA" nameSpace="ICCREA"/>
+<beField class="BETEXT  " displayCaption="PPCR" entityTypeId="ICR210000000001" id="007nAlBWgk2KG02A" mandatory="0" multiplicity="SINGLE_OR_NULL" name="IGR2PPCRICCREA" nameSpace="ICCREA"/>
+<beField class="BETEXT  " displayCaption="PPGBCI" entityTypeId="ICR210000000001" id="007nAlBWgk2KG02C" mandatory="0" multiplicity="SINGLE_OR_NULL" name="IGR2PPGBCIICCREA" nameSpace="ICCREA"/>
+<beField class="BETEXT  " displayCaption="Price Currency Code" entityTypeId="ICR210000000001" id="007nAlBWgk2KG02E" mandatory="0" multiplicity="SINGLE_OR_NULL" name="IGR2PRCCURRCODEICCREA" nameSpace="ICCREA"/>
+<beField class="BETEXT  " displayCaption="Golden Price Source" entityTypeId="ICR210000000001" id="007nAlBWgk2KG01e" mandatory="0" multiplicity="SINGLE_OR_NULL" name="IGR2PRCSRCICCREA" nameSpace="ICCREA"/>
+<beField class="BEDATE  " displayCaption="Price TMS" entityTypeId="ICR210000000001" id="007nAlBWgk2KG02G" mandatory="0" multiplicity="SINGLE_OR_NULL" name="IGR2PRCTMSICCREA" nameSpace="ICCREA"/>
+<beField class="BETEXT  " displayCaption="Price Type" entityTypeId="ICR210000000001" id="007nAlBWgk2KG02I" mandatory="0" multiplicity="SINGLE_OR_NULL" name="IGR2PRCTYPICCREA" nameSpace="ICCREA"/>
+<beField class="BETEXT  " displayCaption="Preferred Issue Name" entityTypeId="ICR210000000001" id="007nAlBWgk2KG02K" mandatory="0" multiplicity="SINGLE_OR_NULL" name="IGR2PREFISSNMEICCREA" nameSpace="ICCREA"/>
+<beField class="BETEXT  " displayCaption="Parent Issue Group OID" entityTypeId="ICR210000000001" id="007nAlBWgk2KG02M" mandatory="0" multiplicity="SINGLE_OR_NULL" name="IGR2PRNTISSGRPICCREA" nameSpace="ICCREA"/>
+<beField class="BETEXT  " displayCaption="Quotato S/N" entityTypeId="ICR210000000001" id="007nAlBWgk2KG02O" mandatory="0" multiplicity="SINGLE_OR_NULL" name="IGR2QUOTATOICCREA" nameSpace="ICCREA"/>
+<beField class="BETEXT  " displayCaption="Securities description" entityTypeId="ICR210000000001" id="007nAlBWgk2KG02Q" mandatory="0" multiplicity="SINGLE_OR_NULL" name="IGR2SECUTITYDESCICCREA" nameSpace="ICCREA"/>
+<beField class="BEDEC   " displayCaption="SeDeX – Reference price" entityTypeId="ICR210000000001" id="007nAlBWgk2KG02S" mandatory="0" multiplicity="SINGLE_OR_NULL" name="IGR2SEDEXICCREA" nameSpace="ICCREA"/>
+<beField class="BEDEC   " displayCaption="SRRI" entityTypeId="ICR210000000001" id="007nAlBWgk2KG02U" mandatory="0" multiplicity="SINGLE_OR_NULL" name="IGR2SRRIICCREA" nameSpace="ICCREA"/>
+<beField class="BETEXT  " displayCaption="CAD SubGroup code of the Instrument" entityTypeId="ICR210000000001" id="007nAlBWgk2KG02W" mandatory="0" multiplicity="SINGLE_OR_NULL" name="IGR2SUBGROUPICCREA" nameSpace="ICCREA"/>
+<beField class="BEDEC   " displayCaption="Transaction Price" entityTypeId="ICR210000000001" id="007nAlBWgk2KG02Y" mandatory="0" multiplicity="SINGLE_OR_NULL" name="IGR2TRANSACTIONICCRE" nameSpace="ICCREA"/>
+<beField class="BETEXT  " displayCaption="Trading Currency Code" entityTypeId="ICR210000000001" id="007nAlBWgk2KG02a" mandatory="0" multiplicity="SINGLE_OR_NULL" name="IGR2TRDNGCURRCODE" nameSpace="ICCREA"/>
+</beFields>
+<dataGroups>
+<dataGroup category="" customInd="0" desc="" displayCaption="GoldenRecordUIDetails" entityTypeId="ICR210000000001" frequencyInd="0" id="007nAlBWgk2KG02l" multiplicity="SINGLE_OR_NULL" name="GoldenRecordUIDetails" nameSpace="ICCREA">
+<part defNameSpace="ICCREA" fieldId="007nAlBWgk2KG00t" id="007nAlBWgk2KG02m" prntReqdInd="0" seq="0"/>
+<part defNameSpace="ICCREA" fieldId="007nAlBWgk2KG00v" id="007nAlBWgk2KG02n" prntReqdInd="0" seq="1"/>
+<part defNameSpace="ICCREA" fieldId="007nAlBWgk2KG00x" id="007nAlBWgk2KG02o" prntReqdInd="0" seq="2"/>
+<part defNameSpace="ICCREA" fieldId="007nAlBWgk2KG00z" id="007nAlBWgk2KG02p" prntReqdInd="0" seq="3"/>
+<part defNameSpace="ICCREA" fieldId="007nAlBWgk2KG00+" id="007nAlBWgk2KG02q" prntReqdInd="0" seq="4"/>
+<part defNameSpace="ICCREA" fieldId="007nAlBWgk2KG011" id="007nAlBWgk2KG02r" prntReqdInd="0" seq="5"/>
+<part defNameSpace="ICCREA" fieldId="007nAlBWgk2KG014" id="007nAlBWgk2KG02s" prntReqdInd="0" seq="6"/>
+<part defNameSpace="ICCREA" fieldId="007nAlBWgk2KG018" id="007nAlBWgk2KG02t" prntReqdInd="0" seq="7"/>
+<part defNameSpace="ICCREA" fieldId="007nAlBWgk2KG016" id="007nAlBWgk2KG02u" prntReqdInd="0" seq="8"/>
+<part defNameSpace="ICCREA" fieldId="007nAlBWgk2KG01B" id="007nAlBWgk2KG02v" prntReqdInd="0" seq="9"/>
+<part defNameSpace="ICCREA" fieldId="007nAlBWgk2KG01D" id="007nAlBWgk2KG02w" prntReqdInd="0" seq="10"/>
+<part defNameSpace="ICCREA" fieldId="007nAlBWgk2KG01F" id="007nAlBWgk2KG02x" prntReqdInd="0" seq="11"/>
+<part defNameSpace="ICCREA" fieldId="007nAlBWgk2KG01H" id="007nAlBWgk2KG02y" prntReqdInd="0" seq="12"/>
+<part defNameSpace="ICCREA" fieldId="007nAlBWgk2KG01J" id="007nAlBWgk2KG02z" prntReqdInd="0" seq="13"/>
+<part defNameSpace="ICCREA" fieldId="007nAlBWgk2KG01L" id="007nAlBWgk2KG02-" prntReqdInd="0" seq="14"/>
+<part defNameSpace="ICCREA" fieldId="007nAlBWgk2KG01N" id="007nAlBWgk2KG02+" prntReqdInd="0" seq="15"/>
+<part defNameSpace="ICCREA" fieldId="007nAlBWgk2KG01P" id="007nAlBWgk2KG030" prntReqdInd="0" seq="16"/>
+<part defNameSpace="ICCREA" fieldId="007nAlBWgk2KG01R" id="007nAlBWgk2KG031" prntReqdInd="0" seq="17"/>
+<part defNameSpace="ICCREA" fieldId="007nAlBWgk2KG01T" id="007nAlBWgk2KG032" prntReqdInd="0" seq="18"/>
+<part defNameSpace="ICCREA" fieldId="007nAlBWgk2KG01V" id="007nAlBWgk2KG033" prntReqdInd="0" seq="19"/>
+<part defNameSpace="ICCREA" fieldId="007nAlBWgk2KG01X" id="007nAlBWgk2KG034" prntReqdInd="0" seq="20"/>
+<part defNameSpace="ICCREA" fieldId="007nAlBWgk2KG01Z" id="007nAlBWgk2KG035" prntReqdInd="0" seq="21"/>
+<part defNameSpace="ICCREA" fieldId="007nAlBWgk2KG01b" id="007nAlBWgk2KG036" prntReqdInd="0" seq="22"/>
+<part defNameSpace="ICCREA" fieldId="007nAlBWgk2KG02c" id="007nAlBWgk2KG037" prntReqdInd="0" seq="23"/>
+<part defNameSpace="ICCREA" fieldId="007nAlBWgk2KG01i" id="007nAlBWgk2KG038" prntReqdInd="0" seq="24"/>
+<part defNameSpace="ICCREA" fieldId="007nAlBWgk2KG01g" id="007nAlBWgk2KG039" prntReqdInd="0" seq="25"/>
+<part defNameSpace="ICCREA" fieldId="007nAlBWgk2KG01k" id="007nAlBWgk2KG03A" prntReqdInd="0" seq="26"/>
+<part defNameSpace="ICCREA" fieldId="007nAlBWgk2KG01m" id="007nAlBWgk2KG03B" prntReqdInd="0" seq="27"/>
+<part defNameSpace="ICCREA" fieldId="007nAlBWgk2KG01o" id="007nAlBWgk2KG03C" prntReqdInd="0" seq="28"/>
+<part defNameSpace="ICCREA" fieldId="007nAlBWgk2KG01q" id="007nAlBWgk2KG03D" prntReqdInd="0" seq="29"/>
+<part defNameSpace="ICCREA" fieldId="007nAlBWgk2KG01s" id="007nAlBWgk2KG03E" prntReqdInd="0" seq="30"/>
+<part defNameSpace="ICCREA" fieldId="007nAlBWgk2KG01u" id="007nAlBWgk2KG03F" prntReqdInd="0" seq="31"/>
+<part defNameSpace="ICCREA" fieldId="007nAlBWgk2KG01y" id="007nAlBWgk2KG03G" prntReqdInd="0" seq="32"/>
+<part defNameSpace="ICCREA" fieldId="007nAlBWgk2KG01-" id="007nAlBWgk2KG03H" prntReqdInd="0" seq="33"/>
+<part defNameSpace="ICCREA" fieldId="007nAlBWgk2KG020" id="007nAlBWgk2KG03I" prntReqdInd="0" seq="34"/>
+<part defNameSpace="ICCREA" fieldId="007nAlBWgk2KG022" id="007nAlBWgk2KG03J" prntReqdInd="0" seq="35"/>
+<part defNameSpace="ICCREA" fieldId="007nAlBWgk2KG024" id="007nAlBWgk2KG03K" prntReqdInd="0" seq="36"/>
+<part defNameSpace="ICCREA" fieldId="007nAlBWgk2KG026" id="007nAlBWgk2KG03L" prntReqdInd="0" seq="37"/>
+<part defNameSpace="ICCREA" fieldId="007nAlBWgk2KG028" id="007nAlBWgk2KG03M" prntReqdInd="0" seq="38"/>
+<part defNameSpace="ICCREA" fieldId="007nAlBWgk2KG02A" id="007nAlBWgk2KG03N" prntReqdInd="0" seq="39"/>
+<part defNameSpace="ICCREA" fieldId="007nAlBWgk2KG02C" id="007nAlBWgk2KG03O" prntReqdInd="0" seq="40"/>
+<part defNameSpace="ICCREA" fieldId="007nAlBWgk2KG02E" id="007nAlBWgk2KG03P" prntReqdInd="0" seq="41"/>
+<part defNameSpace="ICCREA" fieldId="007nAlBWgk2KG01e" id="007nAlBWgk2KG03Q" prntReqdInd="0" seq="42"/>
+<part defNameSpace="ICCREA" fieldId="007nAlBWgk2KG02G" id="007nAlBWgk2KG03R" prntReqdInd="0" seq="43"/>
+<part defNameSpace="ICCREA" fieldId="007nAlBWgk2KG02I" id="007nAlBWgk2KG03S" prntReqdInd="0" seq="44"/>
+<part defNameSpace="ICCREA" fieldId="007nAlBWgk2KG02K" id="007nAlBWgk2KG03T" prntReqdInd="0" seq="45"/>
+<part defNameSpace="ICCREA" fieldId="007nAlBWgk2KG02M" id="007nAlBWgk2KG03U" prntReqdInd="0" seq="46"/>
+<part defNameSpace="ICCREA" fieldId="007nAlBWgk2KG02O" id="007nAlBWgk2KG03V" prntReqdInd="0" seq="47"/>
+<part defNameSpace="ICCREA" fieldId="007nAlBWgk2KG02Q" id="007nAlBWgk2KG03W" prntReqdInd="0" seq="48"/>
+<part defNameSpace="ICCREA" fieldId="007nAlBWgk2KG02S" id="007nAlBWgk2KG03X" prntReqdInd="0" seq="49"/>
+<part defNameSpace="ICCREA" fieldId="007nAlBWgk2KG02U" id="007nAlBWgk2KG03Y" prntReqdInd="0" seq="50"/>
+<part defNameSpace="ICCREA" fieldId="007nAlBWgk2KG02W" id="007nAlBWgk2KG03Z" prntReqdInd="0" seq="51"/>
+<part defNameSpace="ICCREA" fieldId="007nAlBWgk2KG02Y" id="007nAlBWgk2KG03a" prntReqdInd="0" seq="52"/>
+<part defNameSpace="ICCREA" fieldId="007nAlBWgk2KG02a" id="007nAlBWgk2KG03b" prntReqdInd="0" seq="53"/>
+</dataGroup>
+<dataGroup customInd="0" entityTypeId="ICR210000000001" frequencyInd="0" id="007nAlBWgk2KG02i" multiplicity="SINGLE" name="GoldenRecordUI- Root DataGroup" nameSpace="ICCREA">
+<part dataGroupId="007nAlBWgk2KG02l" defNameSpace="ICCREA" id="007nAlBWgk2KG02k" prntReqdInd="0" seq="0"/>
+</dataGroup>
+</dataGroups>
+<occurrences>
+<occurrence desc="Occurrence for GoldenRecord UI Table" id="007nAlBWgk2KG000" ignoreDeleteChildren="false" multiplicity="SINGLE_OR_NULL" name="IGR2_ICCREA" nameSpace="ICCREA" table="FT_T_IGR2" timeSeries="LOGICAL_DELETE">
+<field id="007nAlBWgk2KG00s" name="IGR2_ASF" nameSpace="ICCREA"/>
+<field id="007nAlBWgk2KG00r" name="IGR2_BB_BID" nameSpace="ICCREA"/>
+<field id="007nAlBWgk2KG00q" name="IGR2_BB_NAV" nameSpace="ICCREA"/>
+<field id="007nAlBWgk2KG00p" name="IGR2_BCE_COLLAT" nameSpace="ICCREA"/>
+<field id="007nAlBWgk2KG00o" name="IGR2_BORSAITALIANA" nameSpace="ICCREA"/>
+<field id="007nAlBWgk2KG00n" name="IGR2_BROKER_BID" nameSpace="ICCREA"/>
+<field id="007nAlBWgk2KG00m" name="IGR2_CADCDE" nameSpace="ICCREA"/>
+<field id="007nAlBWgk2KG00l" name="IGR2_CADCDEMRKT" nameSpace="ICCREA"/>
+<field id="007nAlBWgk2KG00k" name="IGR2_CADCODEMAIN" nameSpace="ICCREA"/>
+<field id="007nAlBWgk2KG00j" name="IGR2_CBBT" nameSpace="ICCREA"/>
+<field id="007nAlBWgk2KG00i" name="IGR2_COUNTRYCDE" nameSpace="ICCREA"/>
+<field id="007nAlBWgk2KG00h" name="IGR2_DATA_SRC_ID" nameSpace="ICCREA"/>
+<field id="007nAlBWgk2KG00g" name="IGR2_DOMESTICMOT" nameSpace="ICCREA"/>
+<field id="007nAlBWgk2KG00f" name="IGR2_ENTITY" nameSpace="ICCREA"/>
+<field id="007nAlBWgk2KG00e" name="IGR2_EUREX" nameSpace="ICCREA"/>
+<field id="007nAlBWgk2KG00d" name="IGR2_EUROMOT" nameSpace="ICCREA"/>
+<field id="007nAlBWgk2KG00c" name="IGR2_EUROTLX" nameSpace="ICCREA"/>
+<field id="007nAlBWgk2KG00b" name="IGR2_EXTRAMOT" nameSpace="ICCREA"/>
+<field id="007nAlBWgk2KG00a" name="IGR2_FINSATRA" nameSpace="ICCREA"/>
+<field id="007nAlBWgk2KG00Z" name="IGR2_FUNDMGRNAV" nameSpace="ICCREA"/>
+<field id="007nAlBWgk2KG00Y" name="IGR2_FVL_LEVEL" nameSpace="ICCREA"/>
+<field id="007nAlBWgk2KG00X" name="IGR2_GKEY_OID" nameSpace="ICCREA"/>
+<field id="007nAlBWgk2KG00W" name="IGR2_GOLDENPRICE" nameSpace="ICCREA"/>
+<field id="007nAlBWgk2KG00V" name="IGR2_GOLDEN_PRICE_SRC" nameSpace="ICCREA"/>
+<field id="007nAlBWgk2KG00U" name="IGR2_GRP" nameSpace="ICCREA"/>
+<field id="007nAlBWgk2KG00T" name="IGR2_GRP_DESC" nameSpace="ICCREA"/>
+<field id="007nAlBWgk2KG00S" name="IGR2_HAIRCUT" nameSpace="ICCREA"/>
+<field id="007nAlBWgk2KG00R" name="IGR2_HIMTFASK" nameSpace="ICCREA"/>
+<field id="007nAlBWgk2KG00Q" name="IGR2_HIMTFBID" nameSpace="ICCREA"/>
+<field id="007nAlBWgk2KG00P" name="IGR2_IDEM" nameSpace="ICCREA"/>
+<field id="007nAlBWgk2KG00O" name="IGR2_INSTR_ID" nameSpace="ICCREA"/>
+<field id="007nAlBWgk2KG00N" name="IGR2_ISID_OID" nameSpace="ICCREA"/>
+<field id="007nAlBWgk2KG00M" name="IGR2_ISIN" nameSpace="ICCREA"/>
+<field id="007nAlBWgk2KG00L" name="IGR2_ISS_TYP" nameSpace="ICCREA"/>
+<field id="007nAlBWgk2KG00K" name="IGR2_MKT_OID" nameSpace="ICCREA"/>
+<field id="007nAlBWgk2KG00J" name="IGR2_MORNINGSTARPRETAXBID" nameSpace="ICCREA"/>
+<field id="007nAlBWgk2KG00I" name="IGR2_MORNINGSTARPRETAXNAV" nameSpace="ICCREA"/>
+<field id="007nAlBWgk2KG00H" name="IGR2_MTA" nameSpace="ICCREA"/>
+<field id="007nAlBWgk2KG00G" name="IGR2_PIAZZACODE" nameSpace="ICCREA"/>
+<field id="007nAlBWgk2KG00F" name="IGR2_PPCR" nameSpace="ICCREA"/>
+<field id="007nAlBWgk2KG00E" name="IGR2_PPGBCI" nameSpace="ICCREA"/>
+<field id="007nAlBWgk2KG00D" name="IGR2_PRC_CURR_CDE" nameSpace="ICCREA"/>
+<field id="007nAlBWgk2KG00C" name="IGR2_PRC_TMS" nameSpace="ICCREA"/>
+<field id="007nAlBWgk2KG00B" name="IGR2_PRC_TYP" nameSpace="ICCREA"/>
+<field id="007nAlBWgk2KG00A" name="IGR2_PREF_ISS_NME" nameSpace="ICCREA"/>
+<field id="007nAlBWgk2KG009" name="IGR2_PRNT_ISS_GRP_OID" nameSpace="ICCREA"/>
+<field id="007nAlBWgk2KG008" name="IGR2_QUOTATOSN" nameSpace="ICCREA"/>
+<field id="007nAlBWgk2KG007" name="IGR2_SECURITY_DESC" nameSpace="ICCREA"/>
+<field id="007nAlBWgk2KG006" name="IGR2_SEDEX" nameSpace="ICCREA"/>
+<field id="007nAlBWgk2KG005" name="IGR2_SRRI" nameSpace="ICCREA"/>
+<field id="007nAlBWgk2KG004" name="IGR2_SUBGROUP" nameSpace="ICCREA"/>
+<field id="007nAlBWgk2KG003" name="IGR2_TRANSACT" nameSpace="ICCREA"/>
+<field id="007nAlBWgk2KG002" name="IGR2_TRDNG_CURR_CDE" nameSpace="ICCREA"/>
+<field id="007nAlBWgk2KG001" name="IGR2_UNIT_CPRC" nameSpace="ICCREA"/>
+</occurrence>
+</occurrences>
+<mappings>
+<mapping beFieldId="007nAlBWgk2KG00z" groupMapping="0" id="007nAlBWgk2KG00-" nameSpace="ICCREA" occFieldId="007nAlBWgk2KG00p"/>
+<mapping beFieldId="007nAlBWgk2KG00t" groupMapping="0" id="007nAlBWgk2KG00u" nameSpace="ICCREA" occFieldId="007nAlBWgk2KG00s"/>
+<mapping beFieldId="007nAlBWgk2KG00v" groupMapping="0" id="007nAlBWgk2KG00w" nameSpace="ICCREA" occFieldId="007nAlBWgk2KG00r"/>
+<mapping beFieldId="007nAlBWgk2KG00x" groupMapping="0" id="007nAlBWgk2KG00y" nameSpace="ICCREA" occFieldId="007nAlBWgk2KG00q"/>
+<mapping beFieldId="007nAlBWgk2KG01-" groupMapping="0" id="007nAlBWgk2KG01+" nameSpace="ICCREA" occFieldId="007nAlBWgk2KG00L"/>
+<mapping beFieldId="007nAlBWgk2KG00+" groupMapping="0" id="007nAlBWgk2KG010" nameSpace="ICCREA" occFieldId="007nAlBWgk2KG00o"/>
+<mapping beFieldId="007nAlBWgk2KG011" groupMapping="0" id="007nAlBWgk2KG012" nameSpace="ICCREA" occFieldId="007nAlBWgk2KG00n"/>
+<mapping beFieldId="007nAlBWgk2KG014" groupMapping="0" id="007nAlBWgk2KG015" nameSpace="ICCREA" occFieldId="007nAlBWgk2KG00m"/>
+<mapping beFieldId="007nAlBWgk2KG016" groupMapping="0" id="007nAlBWgk2KG017" nameSpace="ICCREA" occFieldId="007nAlBWgk2KG00l"/>
+<mapping beFieldId="007nAlBWgk2KG018" groupMapping="0" id="007nAlBWgk2KG019" nameSpace="ICCREA" occFieldId="007nAlBWgk2KG00k"/>
+<mapping beFieldId="007nAlBWgk2KG01B" groupMapping="0" id="007nAlBWgk2KG01C" nameSpace="ICCREA" occFieldId="007nAlBWgk2KG00j"/>
+<mapping beFieldId="007nAlBWgk2KG01D" groupMapping="0" id="007nAlBWgk2KG01E" nameSpace="ICCREA" occFieldId="007nAlBWgk2KG00i"/>
+<mapping beFieldId="007nAlBWgk2KG01F" groupMapping="0" id="007nAlBWgk2KG01G" nameSpace="ICCREA" occFieldId="007nAlBWgk2KG00h"/>
+<mapping beFieldId="007nAlBWgk2KG01H" groupMapping="0" id="007nAlBWgk2KG01I" nameSpace="ICCREA" occFieldId="007nAlBWgk2KG00g"/>
+<mapping beFieldId="007nAlBWgk2KG01J" groupMapping="0" id="007nAlBWgk2KG01K" nameSpace="ICCREA" occFieldId="007nAlBWgk2KG00f"/>
+<mapping beFieldId="007nAlBWgk2KG01L" groupMapping="0" id="007nAlBWgk2KG01M" nameSpace="ICCREA" occFieldId="007nAlBWgk2KG00e"/>
+<mapping beFieldId="007nAlBWgk2KG01N" groupMapping="0" id="007nAlBWgk2KG01O" nameSpace="ICCREA" occFieldId="007nAlBWgk2KG00d"/>
+<mapping beFieldId="007nAlBWgk2KG01P" groupMapping="0" id="007nAlBWgk2KG01Q" nameSpace="ICCREA" occFieldId="007nAlBWgk2KG00c"/>
+<mapping beFieldId="007nAlBWgk2KG01R" groupMapping="0" id="007nAlBWgk2KG01S" nameSpace="ICCREA" occFieldId="007nAlBWgk2KG00b"/>
+<mapping beFieldId="007nAlBWgk2KG01T" groupMapping="0" id="007nAlBWgk2KG01U" nameSpace="ICCREA" occFieldId="007nAlBWgk2KG00a"/>
+<mapping beFieldId="007nAlBWgk2KG01V" groupMapping="0" id="007nAlBWgk2KG01W" nameSpace="ICCREA" occFieldId="007nAlBWgk2KG00Z"/>
+<mapping beFieldId="007nAlBWgk2KG01X" groupMapping="0" id="007nAlBWgk2KG01Y" nameSpace="ICCREA" occFieldId="007nAlBWgk2KG00Y"/>
+<mapping beFieldId="007nAlBWgk2KG01Z" groupMapping="0" id="007nAlBWgk2KG01a" nameSpace="ICCREA" occFieldId="007nAlBWgk2KG00X"/>
+<mapping beFieldId="007nAlBWgk2KG01b" groupMapping="0" id="007nAlBWgk2KG01c" nameSpace="ICCREA" occFieldId="007nAlBWgk2KG00W"/>
+<mapping beFieldId="007nAlBWgk2KG01e" groupMapping="0" id="007nAlBWgk2KG01f" nameSpace="ICCREA" occFieldId="007nAlBWgk2KG00V"/>
+<mapping beFieldId="007nAlBWgk2KG01g" groupMapping="0" id="007nAlBWgk2KG01h" nameSpace="ICCREA" occFieldId="007nAlBWgk2KG00U"/>
+<mapping beFieldId="007nAlBWgk2KG01i" groupMapping="0" id="007nAlBWgk2KG01j" nameSpace="ICCREA" occFieldId="007nAlBWgk2KG00T"/>
+<mapping beFieldId="007nAlBWgk2KG01k" groupMapping="0" id="007nAlBWgk2KG01l" nameSpace="ICCREA" occFieldId="007nAlBWgk2KG00S"/>
+<mapping beFieldId="007nAlBWgk2KG01m" groupMapping="0" id="007nAlBWgk2KG01n" nameSpace="ICCREA" occFieldId="007nAlBWgk2KG00R"/>
+<mapping beFieldId="007nAlBWgk2KG01o" groupMapping="0" id="007nAlBWgk2KG01p" nameSpace="ICCREA" occFieldId="007nAlBWgk2KG00Q"/>
+<mapping beFieldId="007nAlBWgk2KG01q" groupMapping="0" id="007nAlBWgk2KG01r" nameSpace="ICCREA" occFieldId="007nAlBWgk2KG00P"/>
+<mapping beFieldId="007nAlBWgk2KG01s" groupMapping="0" id="007nAlBWgk2KG01t" nameSpace="ICCREA" occFieldId="007nAlBWgk2KG00O"/>
+<mapping beFieldId="007nAlBWgk2KG01u" groupMapping="0" id="007nAlBWgk2KG01v" nameSpace="ICCREA" occFieldId="007nAlBWgk2KG00N"/>
+<mapping beFieldId="007nAlBWgk2KG01y" groupMapping="0" id="007nAlBWgk2KG01z" nameSpace="ICCREA" occFieldId="007nAlBWgk2KG00M"/>
+<mapping beFieldId="007nAlBWgk2KG020" groupMapping="0" id="007nAlBWgk2KG021" nameSpace="ICCREA" occFieldId="007nAlBWgk2KG00K"/>
+<mapping beFieldId="007nAlBWgk2KG022" groupMapping="0" id="007nAlBWgk2KG023" nameSpace="ICCREA" occFieldId="007nAlBWgk2KG00J"/>
+<mapping beFieldId="007nAlBWgk2KG024" groupMapping="0" id="007nAlBWgk2KG025" nameSpace="ICCREA" occFieldId="007nAlBWgk2KG00I"/>
+<mapping beFieldId="007nAlBWgk2KG026" groupMapping="0" id="007nAlBWgk2KG027" nameSpace="ICCREA" occFieldId="007nAlBWgk2KG00H"/>
+<mapping beFieldId="007nAlBWgk2KG028" groupMapping="0" id="007nAlBWgk2KG029" nameSpace="ICCREA" occFieldId="007nAlBWgk2KG00G"/>
+<mapping beFieldId="007nAlBWgk2KG02A" groupMapping="0" id="007nAlBWgk2KG02B" nameSpace="ICCREA" occFieldId="007nAlBWgk2KG00F"/>
+<mapping beFieldId="007nAlBWgk2KG02C" groupMapping="0" id="007nAlBWgk2KG02D" nameSpace="ICCREA" occFieldId="007nAlBWgk2KG00E"/>
+<mapping beFieldId="007nAlBWgk2KG02E" groupMapping="0" id="007nAlBWgk2KG02F" nameSpace="ICCREA" occFieldId="007nAlBWgk2KG00D"/>
+<mapping beFieldId="007nAlBWgk2KG02G" groupMapping="0" id="007nAlBWgk2KG02H" nameSpace="ICCREA" occFieldId="007nAlBWgk2KG00C"/>
+<mapping beFieldId="007nAlBWgk2KG02I" groupMapping="0" id="007nAlBWgk2KG02J" nameSpace="ICCREA" occFieldId="007nAlBWgk2KG00B"/>
+<mapping beFieldId="007nAlBWgk2KG02K" groupMapping="0" id="007nAlBWgk2KG02L" nameSpace="ICCREA" occFieldId="007nAlBWgk2KG00A"/>
+<mapping beFieldId="007nAlBWgk2KG02M" groupMapping="0" id="007nAlBWgk2KG02N" nameSpace="ICCREA" occFieldId="007nAlBWgk2KG009"/>
+<mapping beFieldId="007nAlBWgk2KG02O" groupMapping="0" id="007nAlBWgk2KG02P" nameSpace="ICCREA" occFieldId="007nAlBWgk2KG008"/>
+<mapping beFieldId="007nAlBWgk2KG02Q" groupMapping="0" id="007nAlBWgk2KG02R" nameSpace="ICCREA" occFieldId="007nAlBWgk2KG007"/>
+<mapping beFieldId="007nAlBWgk2KG02S" groupMapping="0" id="007nAlBWgk2KG02T" nameSpace="ICCREA" occFieldId="007nAlBWgk2KG006"/>
+<mapping beFieldId="007nAlBWgk2KG02U" groupMapping="0" id="007nAlBWgk2KG02V" nameSpace="ICCREA" occFieldId="007nAlBWgk2KG005"/>
+<mapping beFieldId="007nAlBWgk2KG02W" groupMapping="0" id="007nAlBWgk2KG02X" nameSpace="ICCREA" occFieldId="007nAlBWgk2KG004"/>
+<mapping beFieldId="007nAlBWgk2KG02Y" groupMapping="0" id="007nAlBWgk2KG02Z" nameSpace="ICCREA" occFieldId="007nAlBWgk2KG003"/>
+<mapping beFieldId="007nAlBWgk2KG02a" groupMapping="0" id="007nAlBWgk2KG02b" nameSpace="ICCREA" occFieldId="007nAlBWgk2KG002"/>
+<mapping beFieldId="007nAlBWgk2KG02c" groupMapping="0" id="007nAlBWgk2KG02d" nameSpace="ICCREA" occFieldId="007nAlBWgk2KG001"/>
+</mappings>
+<businessEntities>
+<businessEntity cachedisableInd="N" category="" dataGroupId="007nAlBWgk2KG02i" defaultInd="0" desc="" displayCaption="GoldenRecordUI" entityTypeId="ICR210000000001" id="007nAlBWgk2KG02h" mavenVersion="2.0" name="GoldenRecordUI" nameSpace="ICCREA" ruleVersion="1.0" version="2.0">
+<configurations>
+<configuration data="INCOMPLETE" id="007nAlBWgk2KG02j" ignoreDeleteChildren="false" nameSpace="ICCREA" option="BEDEINITIONFSTATUS"/>
+</configurations>
+</businessEntity>
+</businessEntities>
+</entities>

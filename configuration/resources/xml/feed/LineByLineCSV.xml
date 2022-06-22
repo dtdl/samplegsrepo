@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<vendor-definition>
+    <name>Markit</name>
+    <encoding>ISO-8859-15</encoding>
+    <messageSplitter type="com.j2fe.feeds.generic.splitters.HeaderRecordSupportSplitter">
+        <headerLine>false</headerLine>
+        <messageSplitter type="com.j2fe.feeds.generic.splitters.LineSplitter">
+        	<lineFilter type="com.j2fe.feeds.generic.filters.EmptyMessageFilter"/>
+        </messageSplitter>
+    </messageSplitter>
+</vendor-definition>

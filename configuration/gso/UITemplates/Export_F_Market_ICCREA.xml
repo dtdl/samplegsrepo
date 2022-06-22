@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><root createdUser="user1" entityName="FinancialMarket" entitySubType="[]" id="?*4R01/NW1" isDefault="Y" isPublic="Y" screenType="SYSTEMFORM" title="F: Market_ICCREA">
+<control caption="Market Details" columns="2" fullQualPath="FinancialMarket.MarketDetails" hideDetail="N" id="?*4n01/NW1" labelName="" lazyInd="N" orderNum="0" pageSize="0" parentId="" relatedPath="" screenId="?*4R01/NW1" show="Y" showAsTable="N" showDetailOnTop="N" showOneBelowAnother="N" type="RECORD">
+<config>{"DETAIL_CHART_CONFIG":[]}</config>
+</control>
+<control caption="Market Information" columns="2" fullQualPath="" hideDetail="N" id="?*4o01/NW1" labelName="" lazyInd="N" orderNum="1" pageSize="0" parentId="" relatedPath="" screenId="?*4R01/NW1" show="Y" showAsTable="N" showDetailOnTop="N" showOneBelowAnother="N" type="TABSHEET">
+<config>{"DETAIL_CHART_CONFIG":[]}</config>
+<control caption="Market Identifiers" columns="2" fullQualPath="FinancialMarket.MarketIdentifiers" hideDetail="N" id="?*4p01/NW1" isColumnInTable="N" labelName="" lazyInd="N" orderNum="0" pageSize="0" parentId="?*4o01/NW1" relatedPath="" screenId="?*4R01/NW1" show="Y" showAsTable="N" showDetailOnTop="N" showOneBelowAnother="N" type="LIST">
+<config>{"DETAIL_CHART_CONFIG":[]}</config>
+</control>
+<control caption="Market Calendar Details" columns="2" fullQualPath="FinancialMarket.MarketCalendarDetails" hideDetail="N" id="?*4q01/NW1" isColumnInTable="N" labelName="" lazyInd="N" orderNum="1" pageSize="0" parentId="?*4o01/NW1" relatedPath="" screenId="?*4R01/NW1" show="Y" showAsTable="N" showDetailOnTop="N" showOneBelowAnother="N" type="LIST">
+<config>{"DETAIL_CHART_CONFIG":[]}</config>
+</control>
+<control caption="Market Trading Session" columns="2" fullQualPath="FinancialMarket.MarketTradingSession" hideDetail="N" id="?*4r01/NW1" isColumnInTable="N" labelName="" lazyInd="N" orderNum="2" pageSize="0" parentId="?*4o01/NW1" relatedPath="" screenId="?*4R01/NW1" show="Y" showAsTable="N" showDetailOnTop="N" showOneBelowAnother="N" type="LIST">
+<config>{"DETAIL_CHART_CONFIG":[]}</config>
+</control>
+<control caption="Market Role" columns="2" fullQualPath="FinancialMarket.MarketRole" hideDetail="N" id="?*4s01/NW1" isColumnInTable="N" labelName="" lazyInd="N" orderNum="3" pageSize="0" parentId="?*4o01/NW1" relatedPath="" screenId="?*4R01/NW1" show="Y" showAsTable="N" showDetailOnTop="N" showOneBelowAnother="N" type="LIST">
+<config>{"DETAIL_CHART_CONFIG":[]}</config>
+</control>
+<control caption="Market Identifiers Relation" columns="2" fullQualPath="FinancialMarket.MKD1" hideDetail="N" id="?*4t01/NW1" isColumnInTable="N" labelName="" lazyInd="N" orderNum="4" pageSize="0" parentId="?*4o01/NW1" relatedPath="" screenId="?*4R01/NW1" show="Y" showAsTable="N" showDetailOnTop="N" showOneBelowAnother="N" type="LIST">
+<control caption="Bloomberg Exchange" columns="2" fullQualPath="FinancialMarket.MKD1.ICCREAMKD1BBGEXCHCODE" hideDetail="N" id="?*4u01/NW1" isColumnInTable="N" labelName="" lazyInd="N" orderNum="0" pageSize="0" parentId="?*4t01/NW1" relatedPath="" screenId="?*4R01/NW1" show="Y" showAsTable="N" showDetailOnTop="N" showOneBelowAnother="N" type="FIELD">
+<config>{"DETAIL_CHART_CONFIG":[]}</config>
+</control>
+<control caption="Data Source ID" columns="2" fullQualPath="FinancialMarket.MKD1.ICCREAMKD1DATASOURCEID" hideDetail="N" id="?*4v01/NW1" isColumnInTable="N" labelName="" lazyInd="N" orderNum="1" pageSize="0" parentId="?*4t01/NW1" relatedPath="" screenId="?*4R01/NW1" show="Y" showAsTable="N" showDetailOnTop="N" showOneBelowAnother="N" type="FIELD">
+<config>{"DETAIL_CHART_CONFIG":[]}</config>
+</control>
+<control caption="CODICE PIAZZA ICCREA" columns="2" fullQualPath="FinancialMarket.MKD1.ICCREAMarketIdentifier" hideDetail="N" id="?*4w01/NW1" isColumnInTable="N" labelName="" lazyInd="N" orderNum="2" pageSize="0" parentId="?*4t01/NW1" relatedPath="" screenId="?*4R01/NW1" show="Y" showAsTable="N" showDetailOnTop="N" showOneBelowAnother="N" type="FIELD">
+<config>{"DETAIL_CHART_CONFIG":[]}</config>
+</control>
+<config>{"DETAIL_CHART_CONFIG":[]}</config>
+</control>
+</control>
+</root>
